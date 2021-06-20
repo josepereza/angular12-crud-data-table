@@ -1,0 +1,23 @@
+<app-menu></app-menu>
+<div class="container">
+  <div class="formulario" class="mat-elevation-z8">
+    <h2>Altas Clientes</h2>
+  <form [formGroup]="profileForm" (ngSubmit)=enviar()>
+  
+      <mat-form-field appearance="legacy">
+          <mat-label>Legacy form field</mat-label>
+          <input matInput placeholder="Nombre" formControlName="nombre">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+  
+        <mat-form-field appearance="legacy">
+          <mat-label>Legacy form field</mat-label>
+          <input matInput placeholder="saldo" formControlName="saldo">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+        <button mat-raised-button color="accent">Enviar</button>
+       
+  </form>
+  </div>
+  <app-listado (newCliente)="nuevoCliente($event)" [dato]="cliente"></app-listado>
+</div>

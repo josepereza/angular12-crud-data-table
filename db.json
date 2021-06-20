@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "nombre": "Juan gomz",
+      "saldo": 12000
+    },
+    {
+      "id": 3,
+      "nombre": "Juan gomez juanito barrica de",
+      "saldo": 12000
+    },
+    {
+      "id": 4,
+      "nombre": "perro gutierrez",
+      "saldo": "2"
+    },
+    {
+      "id": 5,
+      "nombre": "perro",
+      "saldo": "111"
+    },
+    {
+      "id": 6,
+      "nombre": "gato con botas",
+      "saldo": "233"
+    },
+    {
+      "id": 7,
+      "nombre": "santi se",
+      "saldo": "1"
+    }
+  ]
+}
